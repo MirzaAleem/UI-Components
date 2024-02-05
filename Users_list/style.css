@@ -1,5 +1,11 @@
+body {
+  display: flex;
+  padding: 173px 194px 173px 193px;
+  justify-content: center;
+  align-items: center;
+  background: #e6eaf8;
+}
 .container {
-  width: 90%;
   display: inline-flex;
   padding: 100px;
   flex-direction: column;
@@ -80,6 +86,7 @@ img#search {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 .users {
   display: flex;
@@ -98,6 +105,12 @@ img#search {
   gap: 16px;
   border-radius: 16px;
   background: #fbfcff;
+}
+.userCard:hover {
+  border-radius: 16px;
+  border: 1px solid #bfc8e5;
+  background: #fbfcff;
+  box-shadow: 0px 8px 23px 0px rgba(218, 224, 249, 0.7);
 }
 .userInfo {
   display: flex;
